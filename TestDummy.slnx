@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="APK.md" />
+    <File Path="README.md" />
+    <File Path="x_Droid.bat" />
+  </Folder>
+  <Project Path="Maui/Maui.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+</Solution>
