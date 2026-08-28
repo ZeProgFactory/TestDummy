@@ -1,4 +1,4 @@
-﻿namespace Maui;
+﻿namespace TestDummy;
 
 public partial class MainPage09 : ContentPage
 {

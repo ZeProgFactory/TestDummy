@@ -3,9 +3,9 @@
 using Microsoft.Maui.DevFlow.Agent;
 #endif
 
-namespace Maui
+namespace TestDummy
 {
-   public static class MauiProgram
+   public static class TestDummyProgram
    {
       public static MauiApp CreateMauiApp()
       {

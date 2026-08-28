@@ -4,7 +4,7 @@
     <File Path="README.md" />
     <File Path="x_Droid.bat" />
   </Folder>
-  <Project Path="Maui/Maui.csproj">
+  <Project Path="Maui/TestDummy.Maui.csproj">
     <Deploy Solution="Debug|*" />
   </Project>
 </Solution>

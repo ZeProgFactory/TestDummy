@@ -1,4 +1,4 @@
-﻿namespace Maui;
+﻿namespace TestDummy;
 
 public partial class InfoPage : ContentPage
 {

@@ -1,10 +1,10 @@
 ﻿using Foundation;
 
-namespace Maui
+namespace TestDummy
 {
    [Register("AppDelegate")]
-   public class AppDelegate : MauiUIApplicationDelegate
+   public class AppDelegate : TestDummyUIApplicationDelegate
    {
-      protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
+      protected override TestDummyApp CreateTestDummyApp() => TestDummyProgram.CreateTestDummyApp();
    }
 }

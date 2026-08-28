@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFrameworks>net10.0-android</TargetFrameworks>
@@ -28,10 +28,10 @@
 		<MauiXamlInflator>SourceGen</MauiXamlInflator>
 
 		<!-- Display name -->
-		<ApplicationTitle>Maui</ApplicationTitle>
+		<ApplicationTitle>TestDummy</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<ApplicationId>fr.zpf.maui</ApplicationId>
+		<ApplicationId>fr.zpf.TestDummy</ApplicationId>
 
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>

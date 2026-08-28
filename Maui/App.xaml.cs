@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace Maui
+namespace TestDummy
 {
    public partial class App : Application
    {
