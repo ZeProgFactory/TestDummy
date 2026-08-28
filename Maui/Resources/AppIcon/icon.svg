@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <path d="M976,168L976,856C976,922.23 922.23,976 856,976L168,976C101.77,976 48,922.23 48,856L48,168C48,101.77 101.77,48 168,48L856,48C922.23,48 976,101.77 976,168Z" style="fill:white;stroke:rgb(11,45,92);stroke-width:20px;"/>
+    <g>
+        <ellipse cx="500" cy="300" rx="175" ry="200" style="fill:url(#_Linear1);stroke:rgb(11,45,92);stroke-width:14px;stroke-linecap:round;stroke-linejoin:round;"/>
+        <g transform="matrix(1,0,0,1,-12.5,-24.223643)">
+            <path d="M400,180C450,120 575,120 625,180" style="fill:url(#_Linear2);fill-rule:nonzero;"/>
+        </g>
+        <path d="M425,285C445,275 465,275 485,285" style="fill:none;fill-rule:nonzero;stroke:rgb(11,45,92);stroke-width:14px;stroke-linecap:round;stroke-linejoin:round;"/>
+        <path d="M515,285C535,275 555,275 575,285" style="fill:none;fill-rule:nonzero;stroke:rgb(11,45,92);stroke-width:14px;stroke-linecap:round;stroke-linejoin:round;"/>
+        <circle cx="445" cy="340" r="18" style="fill:rgb(11,45,92);stroke:rgb(11,45,92);stroke-width:14px;stroke-linecap:round;stroke-linejoin:round;"/>
+        <circle cx="555" cy="340" r="18" style="fill:rgb(11,45,92);stroke:rgb(11,45,92);stroke-width:14px;stroke-linecap:round;stroke-linejoin:round;"/>
+        <path d="M445,405C481.667,431.667 518.333,431.667 555,405" style="fill:none;fill-rule:nonzero;stroke:rgb(11,45,92);stroke-width:14px;stroke-linecap:round;stroke-linejoin:round;"/>
+        <path d="M545,513C545,520.175 539.175,526 532,526L468,526C460.825,526 455,520.175 455,513C455,505.825 460.825,500 468,500L532,500C539.175,500 545,505.825 545,513Z" style="fill:rgb(23,59,114);stroke:rgb(11,45,92);stroke-width:14px;stroke-linecap:round;stroke-linejoin:round;"/>
+        <path d="M550,539C550,546.175 544.175,552 537,552L463,552C455.825,552 450,546.175 450,539C450,531.825 455.825,526 463,526L537,526C544.175,526 550,531.825 550,539Z" style="fill:rgb(23,59,114);stroke:rgb(11,45,92);stroke-width:14px;stroke-linecap:round;stroke-linejoin:round;"/>
+        <path d="M555,565C555,572.175 549.175,578 542,578L458,578C450.825,578 445,572.175 445,565C445,557.825 450.825,552 458,552L542,552C549.175,552 555,557.825 555,565Z" style="fill:rgb(23,59,114);stroke:rgb(11,45,92);stroke-width:14px;stroke-linecap:round;stroke-linejoin:round;"/>
+        <g transform="matrix(1,0,0,1,0,-15)">
+            <path d="M300,650C360,585 640,585 700,650L760,930L240,930L300,650Z" style="fill:url(#_Linear3);fill-rule:nonzero;stroke:rgb(11,45,92);stroke-width:14px;stroke-linecap:round;stroke-linejoin:round;"/>
+        </g>
+        <g id="crashTarget" transform="matrix(1.35,0,0,1.35,500,735)">
+            <circle cx="0" cy="0" r="42" style="fill:rgb(11,45,92);stroke:rgb(11,45,92);stroke-width:14px;stroke-linecap:round;stroke-linejoin:round;"/>
+            <path d="M0,0L0,-42C-23.041,-42 -42,-23.041 -42,0L0,0Z" style="fill:rgb(255,213,79);fill-rule:nonzero;stroke:rgb(11,45,92);stroke-width:14px;stroke-linecap:round;stroke-linejoin:round;"/>
+            <g transform="matrix(-1,-0,0,-1,0,0)">
+                <path d="M0,0L0,-42C-23.041,-42 -42,-23.041 -42,0L0,0Z" style="fill:rgb(255,213,79);fill-rule:nonzero;stroke:rgb(11,45,92);stroke-width:14px;stroke-linecap:round;stroke-linejoin:round;"/>
+            </g>
+            <path d="M-42,0L42,0" style="fill:none;fill-rule:nonzero;stroke:rgb(11,45,92);stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;"/>
+            <path d="M0,-42L0,42" style="fill:none;fill-rule:nonzero;stroke:rgb(11,45,92);stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;"/>
+        </g>
+        <g id="crashTarget1" serif:id="crashTarget" transform="matrix(1.35,0,0,1.35,500,189.976357)">
+            <circle cx="0" cy="0" r="42" style="fill:rgb(11,45,92);stroke:rgb(11,45,92);stroke-width:14px;stroke-linecap:round;stroke-linejoin:round;"/>
+            <path d="M0,0L0,-42C-23.041,-42 -42,-23.041 -42,0L0,0Z" style="fill:rgb(255,213,79);fill-rule:nonzero;stroke:rgb(11,45,92);stroke-width:14px;stroke-linecap:round;stroke-linejoin:round;"/>
+            <g transform="matrix(-1,-0,0,-1,0,0)">
+                <path d="M0,0L0,-42C-23.041,-42 -42,-23.041 -42,0L0,0Z" style="fill:rgb(255,213,79);fill-rule:nonzero;stroke:rgb(11,45,92);stroke-width:14px;stroke-linecap:round;stroke-linejoin:round;"/>
+            </g>
+            <path d="M-42,0L42,0" style="fill:none;fill-rule:nonzero;stroke:rgb(11,45,92);stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;"/>
+            <path d="M0,-42L0,42" style="fill:none;fill-rule:nonzero;stroke:rgb(11,45,92);stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,-9,-37)">
+            <path d="M330,665C390,620 635,620 694,665" style="fill:url(#_Linear4);fill-rule:nonzero;"/>
+        </g>
+        <path d="M865,542L865,818C865,830.142 855.142,840 843,840L667,840C654.858,840 645,830.142 645,818L645,542C645,529.858 654.858,520 667,520L843,520C855.142,520 865,529.858 865,542Z" style="fill:white;stroke:rgb(11,45,92);stroke-width:14px;stroke-linecap:round;stroke-linejoin:round;"/>
+        <path d="M795,502L795,514C795,520.623 789.623,526 783,526L727,526C720.377,526 715,520.623 715,514L715,502C715,495.377 720.377,490 727,490L783,490C789.623,490 795,495.377 795,502Z" style="fill:rgb(11,45,92);stroke:rgb(11,45,92);stroke-width:14px;stroke-linecap:round;stroke-linejoin:round;"/>
+        <g transform="matrix(1,0,0,1,753.820801,593.989247)">
+            <text x="-88.17px" y="0px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:46px;fill:rgb(11,45,92);">UI TEST</text>
+        </g>
+        <g transform="matrix(1,0,0,1,6,-33.032258)">
+            <circle cx="695" cy="675" r="22" style="fill:rgb(92,191,58);"/>
+            <circle cx="695" cy="745" r="22" style="fill:rgb(92,191,58);"/>
+            <circle cx="695" cy="815" r="22" style="fill:rgb(92,191,58);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,6,-33.032258)">
+            <path d="M685,675L694,684L711,666" style="fill-rule:nonzero;stroke:rgb(11,45,92);stroke-width:14px;stroke-linecap:round;stroke-linejoin:round;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,6,-33.032258)">
+            <path d="M685,745L694,754L711,736" style="fill-rule:nonzero;stroke:rgb(11,45,92);stroke-width:14px;stroke-linecap:round;stroke-linejoin:round;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,6,-33.032258)">
+            <path d="M685,815L694,824L711,806" style="fill-rule:nonzero;stroke:rgb(11,45,92);stroke-width:14px;stroke-linecap:round;stroke-linejoin:round;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,6,-33.032258)">
+            <path d="M735,675L825,675" style="fill:none;fill-rule:nonzero;stroke:rgb(11,45,92);stroke-width:14px;stroke-linecap:round;stroke-linejoin:round;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,6,-33.032258)">
+            <path d="M735,745L825,745" style="fill:none;fill-rule:nonzero;stroke:rgb(11,45,92);stroke-width:14px;stroke-linecap:round;stroke-linejoin:round;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,6,-33.032258)">
+            <path d="M735,815L825,815" style="fill:none;fill-rule:nonzero;stroke:rgb(11,45,92);stroke-width:14px;stroke-linecap:round;stroke-linejoin:round;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,-8,-3)">
+            <circle cx="763" cy="510" r="7" style="fill:white;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,-213.3,-177)">
+            <circle cx="763" cy="510" r="7" style="fill:white;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,-325,-177)">
+            <circle cx="763" cy="510" r="7" style="fill:white;"/>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,400,-400,0,325,100)"><stop offset="0" style="stop-color:rgb(255,224,130);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(251,192,45);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(225,45,-45,225,400,135)"><stop offset="0" style="stop-color:white;stop-opacity:0.45"/><stop offset="1" style="stop-color:white;stop-opacity:0"/></linearGradient>
+        <linearGradient id="_Linear3" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,328.75,-328.75,0,240,601.25)"><stop offset="0" style="stop-color:rgb(255,224,130);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(251,192,45);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear4" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(364,33.75,-33.75,364,330,631.25)"><stop offset="0" style="stop-color:white;stop-opacity:0.45"/><stop offset="1" style="stop-color:white;stop-opacity:0"/></linearGradient>
+    </defs>
+</svg>
