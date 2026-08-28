@@ -51,4 +51,4 @@ before submitting a PR.
 
 ## License
 
-This project does not currently specify a license.
+See [LICENSE](LICENSE) for details.
