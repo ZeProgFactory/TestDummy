@@ -25,7 +25,7 @@ and provides a set of sample pages/controls that automated tests can interact wi
 
 1. Clone the repository:
    ```powershell
-   git clone https://github.com/ZeProgFactory/TestDummy.git
+   git clone https://github.com/ZeProgramFactory/TestDummy.git
    ```
 2. Open `TestDummy.slnx` in Visual Studio.
 3. Select a target platform (Android, iOS, MacCatalyst, or Windows) and press **Run**.
