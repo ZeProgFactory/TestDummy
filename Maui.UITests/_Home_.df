@@ -1,1 +1,13 @@
-# Maui Homecreate-pptxcheckpage AppShellscreenshottap CounterBtnscreenshot add-report-pageaddsummary "Summary"
+# Maui Home
+create-pptx
+checkpage AppShell
+screenshot
+tap CounterBtn
+screenshot 
+add-report-page
+navigate "//MainPage09"
+screenshot
+tap CounterBtn
+screenshot 
+add-report-page
+addsummary "Summary"
