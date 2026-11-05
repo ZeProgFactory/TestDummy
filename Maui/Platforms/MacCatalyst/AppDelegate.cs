@@ -3,8 +3,8 @@
 namespace TestDummy
 {
    [Register("AppDelegate")]
-   public class AppDelegate : TestDummyUIApplicationDelegate
+   public class AppDelegate : MauiUIApplicationDelegate
    {
-      protected override TestDummyApp CreateTestDummyApp() => TestDummyProgram.CreateTestDummyApp();
+      protected override MauiApp CreateMauiApp() => TestDummyProgram.CreateMauiApp();
    }
 }

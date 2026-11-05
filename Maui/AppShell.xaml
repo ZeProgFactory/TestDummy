@@ -26,6 +26,12 @@
       Route="MainPage10" />
 
    <ShellContent
+      Title="Controls test page"
+      AutomationId="shellControls"
+      ContentTemplate="{DataTemplate local:ControlsPage}"
+      Route="ControlsPage" />
+
+   <ShellContent
       Title="Infos"
       AutomationId="shellInfos"
       ContentTemplate="{DataTemplate local:InfoPage}"

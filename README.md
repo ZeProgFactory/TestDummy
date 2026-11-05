@@ -11,12 +11,13 @@
 ## About
 
 TestDummy is a lightweight .NET MAUI application built to exercise and validate UI automation
-scenarios for UITestForge. It targets multiple platforms (Android, iOS, MacCatalyst, and Windows)
-provides a set of sample pages/controls that automated tests can interact with.
+(Android, iOS, MacCatalyst, and Windows)
+and provides a set of sample pages/controls that automated tests can interact with.
 
 The app uses a Shell (`AppShell`) and contains these pages:
 
 - `MainPage08`, `MainPage09`, `MainPage10` – sample pages with images/controls (SVG and PNG)
+- `ControlsPage` – page with sample controls
 - `InfoPage` – information page
 
 ## Getting Started
@@ -30,7 +31,7 @@ The app uses a Shell (`AppShell`) and contains these pages:
 
 1. Clone the repository:
    ```powershell
-   https://github.com/ZeProgFactory/TestDummy.git
+   git clone https://github.com/ZeProgFactory/TestDummy.git
    ```
 2. Open `TestDummy.slnx` in Visual Studio.
 3. Select a target platform (Android, iOS, MacCatalyst, or Windows) and press **Run**.
@@ -97,8 +98,8 @@ against this app through the DevFlow agent.
 | `Maui/` | .NET MAUI project source |
 | `Maui/TestDummy.Maui.csproj` | MAUI project file (net10.0 android, ios, maccatalyst, windows) |
 | `Maui/App.xaml`, `Maui/AppShell.xaml` | Application and Shell definitions |
-| `Maui/MainPage08/09/10.xaml`, `Maui/InfoPage.xaml` | Sample pages |
-| `Maui/MauiProgram.cs` | App bootstrap and configuration |
+| `Maui/MainPage08/09/10.xaml`, `Maui/ControlsPage.xaml`, `Maui/InfoPage.xaml` | Sample pages |
+| `Maui/MauiProgram.cs` | App bootstrap and configuration (`TestDummyProgram.CreateMauiApp`) |
 | `Maui/Resources/AppIcon` | Application icon assets |
 | `Maui/Resources/Images` | Sample images used across pages |
 | `Maui/Resources/Styles` | Colors and styles |

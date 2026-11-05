@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+   x:Class="TestDummy.ControlsPage"
+   xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+   AutomationId="controlsPage"
+   Title="Controls test page">
+
+   <ScrollView>
+      <VerticalStackLayout Padding="20" Spacing="12">
+
+         <Entry
+            AutomationId="nameEntry"
+            Placeholder="Enter name"
+            Text="{Binding Name, Mode=TwoWay}" />
+
+         <Label AutomationId="greetingLabel" Text="{Binding Greeting}" />
+
+         <HorizontalStackLayout Spacing="10">
+            <Label Text="Enabled" VerticalOptions="Center" />
+            <Switch AutomationId="enabledSwitch" IsToggled="{Binding IsEnabled, Mode=TwoWay}" />
+            <CheckBox AutomationId="agreeCheckBox" IsChecked="{Binding IsAgreed, Mode=TwoWay}" />
+         </HorizontalStackLayout>
+
+         <Slider
+            AutomationId="valueSlider"
+            Maximum="100"
+            Minimum="0"
+            Value="{Binding SliderValue, Mode=TwoWay}" />
+         <Label AutomationId="sliderValueLabel" Text="{Binding SliderValue, StringFormat='Value: {0:F0}'}" />
+
+         <Picker
+            AutomationId="colorPicker"
+            ItemsSource="{Binding Colors}"
+            SelectedItem="{Binding SelectedColor, Mode=TwoWay}"
+            Title="Color" />
+         <Label AutomationId="selectedColorLabel" Text="{Binding SelectedColor, StringFormat='Color: {0}'}" />
+
+         <Button
+            AutomationId="incrementButton"
+            Command="{Binding IncrementCommand}"
+            IsEnabled="{Binding IsEnabled}"
+            Text="Increment" />
+         <Label AutomationId="counterLabel" Text="{Binding Counter, StringFormat='Count: {0}'}" />
+
+         <Button
+            AutomationId="resetButton"
+            Command="{Binding ResetCommand}"
+            Text="Reset" />
+      </VerticalStackLayout>
+   </ScrollView>
+</ContentPage>

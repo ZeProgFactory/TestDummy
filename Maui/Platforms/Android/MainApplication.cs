@@ -4,13 +4,13 @@ using Android.Runtime;
 namespace TestDummy
 {
    [Application]
-   public class MainApplication : TestDummyApplication
+   public class MainApplication : MauiApplication
    {
       public MainApplication(IntPtr handle, JniHandleOwnership ownership)
          : base(handle, ownership)
       {
       }
 
-      protected override TestDummyApp CreateTestDummyApp() => TestDummyProgram.CreateTestDummyApp();
+      protected override MauiApp CreateMauiApp() => TestDummyProgram.CreateMauiApp();
    }
 }
