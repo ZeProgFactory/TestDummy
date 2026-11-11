@@ -38,7 +38,7 @@ The app uses a Shell (`AppShell`) and contains these pages:
 
 Alternatively, from the command line:
 ```powershell
-dotnet build Maui/TestDummy.Maui.csproj -f net10.0-windows10.0.19041.0
+    dotnet build Maui/TestDummy.Maui.csproj -f net11.0-windows10.0.19041.0
 ```
 
 ## DevFlow Agent
@@ -96,7 +96,7 @@ against this app through the DevFlow agent.
 | Path | Description |
 |------|--------------|
 | `Maui/` | .NET MAUI project source |
-| `Maui/TestDummy.Maui.csproj` | MAUI project file (net10.0 android, ios, maccatalyst, windows) |
+| `Maui/TestDummy.Maui.csproj` | MAUI project file (.NET 11: Android, iOS, Mac Catalyst, Windows) |
 | `Maui/App.xaml`, `Maui/AppShell.xaml` | Application and Shell definitions |
 | `Maui/MainPage08/09/10.xaml`, `Maui/ControlsPage.xaml`, `Maui/InfoPage.xaml` | Sample pages |
 | `Maui/MauiProgram.cs` | App bootstrap and configuration (`TestDummyProgram.CreateMauiApp`) |

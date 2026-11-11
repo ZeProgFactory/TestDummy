@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>net10.0-android</TargetFrameworks>
-		<TargetFrameworks Condition="!$([MSBuild]::IsOSPlatform('linux'))">$(TargetFrameworks);net10.0-ios;net10.0-maccatalyst</TargetFrameworks>
-		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net10.0-windows10.0.19041.0</TargetFrameworks>
+		<TargetFrameworks>net11.0-android</TargetFrameworks>
+		<TargetFrameworks Condition="!$([MSBuild]::IsOSPlatform('linux'))">$(TargetFrameworks);net11.0-ios;net11.0-maccatalyst</TargetFrameworks>
+		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net11.0-windows10.0.19041.0</TargetFrameworks>
 
 		<!-- Note for MacCatalyst:
 		The default runtime is maccatalyst-x64, except in Release config, in which case the default is maccatalyst-x64;maccatalyst-arm64.
@@ -42,21 +42,21 @@
 
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">15.0</SupportedOSPlatformVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'maccatalyst'">15.0</SupportedOSPlatformVersion>
-		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">24.0</SupportedOSPlatformVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
 		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
 	</PropertyGroup>
 
-	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net10.0-android|AnyCPU'">
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net11.0-android|AnyCPU'">
 	  <AndroidPackageFormat>apk</AndroidPackageFormat>
 	</PropertyGroup>
 
-   <PropertyGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">
-      <!-- Debug: include armeabi-v7a (32-bit ARM for ZCS Z92), arm64-v8a (modern devices), x64 (emulators) -->
-      <RuntimeIdentifiers Condition="'$(Configuration)' == 'Debug'">android-arm;android-arm64;android-x64</RuntimeIdentifiers>
-   
-      <!-- Release: ARM only -->
-      <RuntimeIdentifiers Condition="'$(Configuration)' == 'Release'">android-arm;android-arm64</RuntimeIdentifiers>
+	<PropertyGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">
+		<!-- Debug: include armeabi-v7a (32-bit ARM for ZCS Z92) and arm64-v8a (modern devices) -->
+		<RuntimeIdentifiers Condition="'$(Configuration)' == 'Debug'">android-arm;android-arm64</RuntimeIdentifiers>
+
+		<!-- Release: ARM only -->
+		<RuntimeIdentifiers Condition="'$(Configuration)' == 'Release'">android-arm;android-arm64</RuntimeIdentifiers>
             
       <AndroidEnableIncrementalBuild>false</AndroidEnableIncrementalBuild>
       <AndroidFastDeployment>false</AndroidFastDeployment>
@@ -84,31 +84,34 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.Maui.Controls" Version="10.0.120" />
-		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="10.0.14" />
-      <PackageReference Include="Microsoft.Maui.DevFlow.Agent" Version="0.1.0-preview.13.26526.5" />
-   </ItemGroup>
+		<PackageReference Include="Microsoft.Maui.Controls" Version="11.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="11.0.0" />
+		<PackageReference Include="Microsoft.Maui.DevFlow.Agent" Version="0.1.0-preview.14.26555.2" />
+	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="MainPage08.xaml.cs">
+	  <Compile Update="Pages\MainPage08.xaml.cs">
 	    <DependentUpon>MainPage08.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="MainPage09.xaml.cs">
+	  <Compile Update="Pages\MainPage09.xaml.cs">
 	    <DependentUpon>MainPage09.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="MainPage10.xaml.cs">
+	  <Compile Update="Pages\MainPage10.xaml.cs">
 	    <DependentUpon>MainPage10.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="InfoPage.xaml">
+	  <MauiXaml Update="Pages\InfoPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="MainPage08.xaml">
+	  <MauiXaml Update="Pages\MainPage08.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="MainPage09.xaml">
+	  <MauiXaml Update="Pages\MainPage09.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\MainPage11.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
